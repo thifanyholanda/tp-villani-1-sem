@@ -1,0 +1,44 @@
+img {
+	height: 100px;
+	display: block;
+}
+
+h1 {
+	font-family: sans-serif;
+	margin-left: 20px;
+	font-size: 60px;
+	
+}
+h2 {
+	font-family: serif;
+	margin-left: 20px;
+	font-size: 40px;
+	padding: 0;
+}
+
+.menu ul li {
+	font-family: serif;
+	font-size: 25px;
+	border-style: solid;
+	background-color: #58ACFA;
+	padding: 10px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	position: relative;
+}
+.menu ul li:hover {
+	background-color: #0040FF;
+}
+.menu ul ul {
+	padding: 0;
+	display: none;
+	position: absolute;
+}
+.menu ul li:hover > ul {
+	display: block;
+}
